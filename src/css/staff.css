@@ -1,0 +1,19 @@
+#leaveMgmtStaff{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+}
+#leaveMgmtStaff p{
+    font-size: 40px;
+    font-weight: bold;
+}
+#mgmtBtnStaff{
+    display: flex;
+    justify-content: space-around;
+}
+#mgmtBtnStaff button{
+    background-color:#4318ff;
+    color: white;
+    width: 30%;
+}

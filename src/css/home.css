@@ -1,0 +1,26 @@
+#homeContainer{
+    border: 1px solid transparent;
+    width: 80%;
+    display: block;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+}
+#container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 200px;
+}
+.linkImages{
+    border: 0px solid black;
+    cursor: pointer;
+}
+#container h1{
+   font-family: sans-serif;
+   text-decoration: none;
+   color: rgb(75, 75, 238);
+   font-size: 25px;
+   font-weight: bold;
+}
+

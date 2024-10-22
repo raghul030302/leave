@@ -1,0 +1,42 @@
+.tableTrue{
+    display: none;
+}
+.tableFalse{
+    display: block;
+}
+.detailsFalse{
+    display: none;
+}
+.detailsTrue{
+    display: block;
+}
+#leaveDetails{
+    border: 0px solid black;
+    display: grid;
+    gap: 20px;
+}
+#dataElement{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+#leaveHeading{
+    font-weight: bold;
+    font-size: 20px;
+    width: 50%;
+}
+#leavePtag{
+    border: 0px solid black;
+    width: 50%;
+    font-size: 17px;
+}
+#leaveLinktag{
+    width: 50%;
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    font-size: 17px;
+    color: blue;
+    font-weight: bold;
+}

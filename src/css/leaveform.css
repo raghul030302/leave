@@ -1,0 +1,97 @@
+#nav{
+    border: 0px solid black;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d9d9d9;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#navLogo{
+    border: 0px solid black;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-left: 10px;
+}
+#navLogo img{
+    width: 80%;
+}
+#navIcons{
+    border: 0px solid blue;
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#calenderContainer{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+#profile{
+    border: 0px solid black;
+    width: 25%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    border-radius: 30px;
+    background-color: #d9d9d9;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#profilePic{
+    border: 0px solid red;
+    width: 50%;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#profileContainer{
+    border: 0px solid black;
+    display: grid;
+    justify-content: center;
+    gap: 10px;
+}
+#profilePic img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+#calender{
+    border: 0px solid black;
+    width: 60%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#uploadBox{
+    width: 50%;
+    border: 0px solid black;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+#btnContainer{
+    border: 1px solid black;
+}
+.lacTrue{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    color: red;
+    font-weight: bold;
+}
+.lacFalse{
+    display: none;
+}
+#lacturesContainer{
+    display: grid;
+    color: black;
+}
